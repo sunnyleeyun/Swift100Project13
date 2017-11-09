@@ -28,6 +28,28 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A9z-8k-pvT" id="HzE-FV-ool">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="20" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fV-9j-Van">
+                                                    <rect key="frame" x="15" y="26" width="345" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huF-XA-Le8">
+                                                    <rect key="frame" x="15" y="5" width="345" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="huF-XA-Le8" firstAttribute="top" secondItem="HzE-FV-ool" secondAttribute="top" constant="5" id="3ho-zZ-i1e"/>
+                                                <constraint firstItem="1fV-9j-Van" firstAttribute="leading" secondItem="HzE-FV-ool" secondAttribute="leading" constant="15" id="5ud-ZE-GKi"/>
+                                                <constraint firstAttribute="trailing" secondItem="1fV-9j-Van" secondAttribute="trailing" constant="15" id="PNd-mg-rP2"/>
+                                                <constraint firstItem="1fV-9j-Van" firstAttribute="top" secondItem="huF-XA-Le8" secondAttribute="bottom" id="VKy-WA-Zna"/>
+                                                <constraint firstItem="huF-XA-Le8" firstAttribute="leading" secondItem="HzE-FV-ool" secondAttribute="leading" constant="15" id="rHS-eA-CHV"/>
+                                                <constraint firstAttribute="trailing" secondItem="huF-XA-Le8" secondAttribute="trailing" constant="15" id="x9H-QW-N0C"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -49,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-535" y="133"/>
+            <point key="canvasLocation" x="-535.20000000000005" y="132.68365817091455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eWH-UJ-E4m">
